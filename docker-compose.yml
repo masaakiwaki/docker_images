@@ -11,8 +11,6 @@ services:
     command: --auth none
     
     
-version: "3"
-services:
   jlab:
     image: jupyter/datascience-notebook
     ports:
